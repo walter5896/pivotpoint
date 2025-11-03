@@ -364,10 +364,6 @@ header span {
 }
 
 /* --------------------------- NAVIGATION --------------------------- */
-div#navWrapper {
-  grid-row-start: 4;
-}
-
 /* Hide hamburger and close buttons completely */
 #top a[href="#navlinks"],
 #navlinks > a[href="#top"] {
