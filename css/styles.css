@@ -363,6 +363,21 @@ header span {
   padding: 0 2px; /* tiny space around text */
 }
 
+.pricing-card ul li {
+  list-style: none;
+  padding-left: 1.8rem;
+  position: relative;
+  line-height: 1.6;
+}
+
+.pricing-card ul li::before {
+  position: absolute;
+  left: 0;
+  color: #1c5b01;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
 /* --------------------------- NAVIGATION --------------------------- */
 /* Hide hamburger and close buttons completely */
 #top a[href="#navlinks"],
@@ -431,7 +446,7 @@ main p {
   border-radius: 12px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
   padding: 2.5rem 3rem; /* increase padding so text has breathing room */
-  max-width: 500px; /* increase max width so text fits */
+  max-width: 700px; /* increase max width so text fits */
   width: 90%; /* flexible width on smaller screens */
   box-sizing: border-box; /* ensures padding is included in width */
   margin: 0 auto; /* centers card */
