@@ -567,7 +567,7 @@ footer {
   line-height: 150%;
 }
 footer a {
-  color: white;
+  color: rgb(227, 219, 219);
 }
 
 @media only screen and (min-width: 35rem) {
