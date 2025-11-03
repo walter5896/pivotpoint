@@ -332,7 +332,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* --------------------------- HEADER --------------------------- */
 #headerWrapper {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ffffff;
 }
 
 header span {
@@ -476,7 +476,7 @@ form.my-form input[type=date],
 form.my-form select {
   display: block;
   margin: 0.2rem 0 1.5rem 0;
-  border: 2px solid #ccc;
+  border: 2px solid #ffffff;
   border-radius: 10px;
   font-size: 1rem;
   color: #000000;
@@ -562,12 +562,12 @@ footer {
   font-family: "Roboto", sans-serif;
   font-size: 0.85rem;
   padding: 1rem 10px;
-  color: white;
+  color: #ffffff;
   text-align: center;
   line-height: 150%;
 }
 footer a {
-  color: white;
+  color: #ffffff;
 }
 
 @media only screen and (min-width: 35rem) {
@@ -580,7 +580,7 @@ footer a {
   }
   nav {
     height: auto;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #ffffff;
   }
   ul {
     display: flex;
